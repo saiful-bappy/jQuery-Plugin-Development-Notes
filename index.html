@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Plugin Development Notes</title>
+    <link rel="stylesheet" href="css/jquery.parallax.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/animats.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1><a href="#">Stellar Plugin</a> Backgrounds Demo</h1>
+
+      <div class="photo summer" data-stellar-background-ratio="0.5">
+        <span>Summer</span>
+      </div>
+      <div class="photo autumn" data-stellar-background-ratio="0.5">
+        <span>Autumn</span>
+      </div>
+      <div class="photo winter" data-stellar-background-ratio="0.5">
+        <span>Winter</span>
+      </div>
+      <div class="photo spring" data-stellar-background-ratio="0.5">
+        <span>Spring</span>
+      </div>
+      <div class="photo summer" data-stellar-background-ratio="0.5">
+        <span>Summer</span>
+      </div>
+      <div class="photo autumn" data-stellar-background-ratio="0.5">
+        <span>Autumn</span>
+      </div>
+      <div class="photo winter" data-stellar-background-ratio="0.5">
+        <span>Winter</span>
+      </div>
+      <div class="photo spring" data-stellar-background-ratio="0.5">
+        <span>Spring</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="parallax-plugin">jQuery Parallax Plugin</h1>
+      <div id="port">
+        <!-- Seven image layers, each layer slightly bigger than the one behind, making 'closer' layers move faster. -->
+        <img
+          class="parallax-layer"
+          src="images/parallax_drops/0.png"
+          alt=""
+          style="width: 978px; height: 325px"
+        />
+        <img
+          class="parallax-layer"
+          src="images/parallax_drops/1.png"
+          alt=""
+          style="width: 987px; height: 328px"
+        />
+        <img
+          class="parallax-layer"
+          src="images/parallax_drops/2.png"
+          alt=""
+          style="width: 1001px; height: 333px"
+        />
+        <img
+          class="parallax-layer"
+          src="images/parallax_drops/3.png"
+          alt=""
+          style="width: 1031px; height: 343px"
+        />
+        <img
+          class="parallax-layer"
+          src="images/parallax_drops/4.png"
+          alt=""
+          style="width: 1067px; height: 355px"
+        />
+        <img
+          class="parallax-layer"
+          src="images/parallax_drops/5.png"
+          alt=""
+          style="width: 1120px; height: 373px"
+        />
+        <img
+          class="parallax-layer"
+          src="images/parallax_drops/6.png"
+          alt=""
+          style="width: 1200px; height: 400px"
+        />
+      </div>
+    </div>
+
+    <div class="container bg-parallax">
+      <div class="clear">
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+        <div class="stalk">
+          <img src="images/parallax_button/1.png" alt="" class="layer_1" />
+          <img src="images/parallax_button/2.png" alt="" class="layer_2" />
+          <img src="images/parallax_button/3.png" alt="" class="layer_3" />
+          <img src="images/parallax_button/4.png" alt="" class="layer_4" />
+          <img src="images/parallax_button/5.png" alt="" class="layer_5" />
+          <img src="images/parallax_button/6.png" alt="" class="layer_6" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="heading">Wow.js and Animate.css</h1>
+      <div class="wow-box animate__animated animate__flip"></div>
+
+      <section class="wow yellow shake" data-wow-iteration="3"></section>
+      <section class="wow blue hinge" data-wow-duration="2s"></section>
+      <section class="wow green slideInLeft" data-wow-delay="300ms"></section>
+      <section class="wow orange tada" data-wow-offset="10"></section>
+      <section class="wow lime rubberBand" data-wow-iteration="3"></section>
+      <section class="wow maroon flip" data-wow-delay="300ms"></section>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

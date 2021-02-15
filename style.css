@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: helvetica, arial;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
+}
+
+h1 a {
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.photo {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 450px;
+  position: relative;
+}
+
+.photo span {
+  color: white;
+  display: block;
+  bottom: 0;
+  left: 0;
+  font-size: 38px;
+  padding: 10px;
+  position: absolute;
+  text-shadow: 0 2px 0 black, 0 0 10px black;
+}
+
+.summer {
+  background-image: url(images/summer.jpg);
+}
+
+.autumn {
+  background-image: url(images/autumn.jpg);
+}
+
+.winter {
+  background-image: url(images/winter.jpg);
+}
+
+.spring {
+  background-image: url(images/spring.jpg);
+}
+
+.parallax-plugin {
+  margin-top: 40px;
+  background-color: brown;
+}
+
+#port {
+  background: rgb(47, 49, 52);
+  margin: 1.5em 0px;
+  overflow: hidden;
+  position: relative;
+  height: 300px;
+}
+
+.bg-parallax {
+  background-color: #515356;
+  padding: 50px 0 100px 0;
+}
+
+.clear {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60em;
+  margin: auto;
+}
+
+.stalk {
+  background: #2f3134;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 3.2em 3.2em 0 0;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+
+.layer_1 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  z-index: 101;
+}
+.layer_2 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  z-index: 102;
+}
+.layer_3 {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  z-index: 103;
+}
+.layer_4 {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  z-index: 104;
+}
+.layer_5 {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  z-index: 105;
+}
+.layer_6 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  z-index: 106;
+}
+
+.heading {
+  margin-top: 40px;
+  background-color: darkgreen;
+}
+
+.wow-box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  margin: 40px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 300px;
+}
+
+.blue {
+  background-color: blue;
+  height: 300px;
+}
+
+.green {
+  background-color: green;
+  height: 300px;
+}
+
+.orange {
+  background-color: orange;
+  height: 300px;
+}
+.lime {
+  background-color: lime;
+  height: 300px;
+}
+.maroon {
+  background-color: maroon;
+  height: 300px;
+}
